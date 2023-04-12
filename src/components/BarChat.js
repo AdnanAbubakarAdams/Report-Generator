@@ -1,8 +1,8 @@
 import React from 'react';
 import AccountingDailyDeposit from "./AccountingDailyDeposit.csv";
 import Papa from 'papaparse';
-import {useEffect, useState} from 'react';
-import {Bar} from 'react-chartjs-2';
+import { useEffect, useState } from 'react';
+import { Bar } from 'react-chartjs-2';
 // import { Chart as ChartJS } from "chart.js/auto";
 import {
   Chart as ChartJS,
@@ -68,10 +68,10 @@ const BarChat = () => {
       }, [])
   return (
     <div>
-        <h1>BarChat</h1>
+        <h1>BarChart</h1>
         {
         chartData.datasets.length > 0 ? (
-          <div>
+          <div className='barChart'>
             <Bar options={chartOptions} data={chartData}/>
             </div>
         ) : (

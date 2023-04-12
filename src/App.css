@@ -6,6 +6,24 @@
   height: 40vmin;
   pointer-events: none;
 }
+.navbar {
+  background-color: yellowgreen;
+  height: 5vmin;
+  
+}
+.navbar a {
+  text-decoration: none;
+}
+.logo {
+  padding: 10px;
+  font-size: larger;
+  font-weight: bold;
+  color: aliceblue;
+}
+.barChart {
+  width: 1300px;
+  margin: 50px auto;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
